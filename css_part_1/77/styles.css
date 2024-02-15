@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+}
+img{
+    width: 45%;
+    align-self: center;
+}
+p{
+    font-size: 30px;
+}
+.fill{
+    object-fit: fill;
+}
+.cover{
+    object-fit: cover;
+}
+.contain{
+    object-fit: contain; 
+}
+.scale-down{
+    object-fit: scale-down;
+}
+.none{
+    object-fit: none;
+}
