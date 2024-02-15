@@ -1,0 +1,14 @@
+div {
+    border: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+div img {
+    float:right;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
