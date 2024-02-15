@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-color: gray;
+    border: solid white 5px;
+    height: 20%;
+    width: auto;
+}
+nav {
+    background-color: gray;
+    border: solid white 5px;
+    height: 10%;
+    width: auto;
+}
+.content {
+    height: 60%;
+}
+.aside {
+    float:left;
+    background-color: gray;
+    border: solid white 5px;
+    height: 100%;
+    width: 20%;
+}
+.next-aside {
+    float:right;
+    background-color: gray;
+    border: solid white 5px;
+    height: 100%;
+    width: 20%;
+}
+main {
+    border: solid white 5px;
+    background-color: gray;
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+footer {
+    border: solid white 5px;
+    background-color: gray;
+    height: 10%;
+}
