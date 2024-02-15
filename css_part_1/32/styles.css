@@ -1,0 +1,21 @@
+.firstart p:first-child {
+    background-color: red;
+}
+.firstart h5:first-of-type {
+    background-color: greenyellow;
+}
+.firstline::first-line {
+    color: red;
+}
+.hover:hover {
+    background-color: yellow;
+}
+.click:active {
+background-color: yellow;
+}
+a:visited{
+    color: red;
+}
+input:focus {
+    background-color: beige;
+}
