@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    display: inline;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+p {
+    margin-top: 100px;
+}
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(shrek\ copy.jpeg);
+    z-index: -1;
+    position: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
