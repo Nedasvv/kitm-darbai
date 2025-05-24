@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <title>Superhero Paieškos Programėlė</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Superhero Paieška</h1>
+    <nav>
+      <a href="#">Pagrindinis</a>
+      <a href="#">Paieška</a>
+      <a href="#">Atsitiktinis</a>
+      <a href="#">Palyginimas</a>
+    </nav>
+  </header>
+
+  <section>
+    <p>Įveskite superherojaus vardą ir pamatykite jo statistiką bei nuotrauką.</p>
+    <input type="text" id="vardas" placeholder="Pvz: Batman">
+    <button onclick="ieskotiHerojaus()">Ieškoti</button>
+    <p id="klaida" class="klaida"></p>
+    <div id="rezultatas"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+header nav a {
+  margin-right: 10px;
+}
+
+.kortele {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.klaida {
+  color: red;
+}
